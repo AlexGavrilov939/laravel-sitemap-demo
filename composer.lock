@@ -4,8 +4,49 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ccbd816a07b206f971042295b899d1ba",
+    "content-hash": "25b06d03d9828895a76a440d5a550557",
     "packages": [
+        {
+            "name": "alexgavrilov/laravel-sitemap-generator",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AlexGavrilov939/laravel-sitemap-generator.git",
+                "reference": "4ab3276e1dfdf2a88b6d78f9f67f8a4460eb51b1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AlexGavrilov939/laravel-sitemap-generator/zipball/4ab3276e1dfdf2a88b6d78f9f67f8a4460eb51b1",
+                "reference": "4ab3276e1dfdf2a88b6d78f9f67f8a4460eb51b1",
+                "shasum": ""
+            },
+            "require": {
+                "ext-simplexml": "*",
+                "php": ">=8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Sitemap\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alex Gavrilov",
+                    "email": "alexgavrilov939@gmail.com"
+                }
+            ],
+            "description": "Library for generating sitemaps from an array into file formats: xml, csv, json.",
+            "support": {
+                "issues": "https://github.com/AlexGavrilov939/laravel-sitemap-generator/issues",
+                "source": "https://github.com/AlexGavrilov939/laravel-sitemap-generator/tree/v1.0.0"
+            },
+            "time": "2022-11-04T22:19:19+00:00"
+        },
         {
             "name": "brick/math",
             "version": "0.10.2",
@@ -7819,7 +7860,8 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": "^8.0.2"
+        "php": "^8.0.2",
+        "ext-simplexml": "*"
     },
     "platform-dev": [],
     "plugin-api-version": "2.3.0"
